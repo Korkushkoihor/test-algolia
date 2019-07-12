@@ -14,7 +14,7 @@ const searchClient = algoliasearch(
 })
 export class AppComponent {
   config = {
-    indexName: 'demo_ecommerce',
+    indexName: 'dev_attributes',
     searchClient
   };
   title = 'algolia-test';
